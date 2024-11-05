@@ -1,0 +1,44 @@
+{
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Cappuccino",
+            "type": "caffeinated",
+            "price": "35000",
+            "image": "https://picsum.photos/300",
+            "description": "Cappucino is Lorem ipsum dolor sit amet, consectetur adipiscing"
+        },
+        {
+            "id": 2,
+            "name": "Matcha Latte",
+            "type": "uncaffeinated",
+            "price": "35000",
+            "image": "https://picsum.photos/300",
+            "description": "Matcha is Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": 3,
+            "name": "Cold Brew",
+            "type": "caffeinated",
+            "price": "15000",
+            "image": "https://picsum.photos/300",
+            "description": "Cold brew is Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": 2,
+            "name": "Berry Fusion",
+            "type": "non caffeinated",
+            "price": "35000",
+            "image": "https://picsum.photos/300",
+            "description": "Matcha is Lorem ipsum dolor sit amet, consectetur"
+        },
+        {
+            "id": 5,
+            "name": "Original Latte",
+            "type": "caffeinated",
+            "price": "50000",
+            "image": "https://picsum.photos/300",
+            "description": "Matcha is Lorem ipsum dolor sit amet, consectetur"
+        }
+    ]
+}
