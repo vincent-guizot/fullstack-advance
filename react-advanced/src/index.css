@@ -1,7 +1,8 @@
 :root {
   --pallete-1: #232323;
   --pallete-2: #333;
-
+  --pallete-red: #A04747;
+  --pallete-yellow: #D8A25E;   
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -16,4 +17,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
- 
+body {
+  /* background-color: #343131; */
+  color: white;
+}
+
+.recipe-img{
+  width: 125px;
+  height: auto;
+}
+
+.recipe-details .d-flex {
+  border: 0.5px solid var(--pallete-2);
+  padding: 0.5rem;
+}
+
+.navbar-brand, h3 {
+  color: var(--pallete-red )
+}
