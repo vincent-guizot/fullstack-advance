@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "json-server --watch recipes.json",
+    "server_data": "json-server --watch data.json",
+    "server_dashboard" : "json-server --watch dashboard.json --port 3010",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

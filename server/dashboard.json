@@ -1,10 +1,22 @@
 {
-    "clasess": [
+    "classes": [
         {
             "id": 1,
             "name": "Full Stack Web Development",
             "totalMeetings": 16,
             "totalStudents": 15,
+            "price": 9000000,
+            "status": true,
+            "startDate": "15-11-2024",
+            "finishhDate": "15-1-2025",
+            "meeetings": [],
+            "students": []
+        },
+        {
+            "id": 2,
+            "name": "Data Science Full ",
+            "totalMeetings": 8,
+            "totalStudents": 10,
             "price": 9000000,
             "status": true,
             "startDate": "15-11-2024",
