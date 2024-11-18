@@ -6,9 +6,9 @@
             "totalMeetings": 16,
             "totalStudents": 15,
             "price": 9000000,
-            "status": true,
+            "statu": true,
             "startDate": "15-11-2024",
-            "finishhDate": "15-1-2025",
+            "finishDate": "15-1-2025",
             "meeetings": [],
             "students": []
         },
@@ -20,7 +20,7 @@
             "price": 9000000,
             "status": true,
             "startDate": "15-11-2024",
-            "finishhDate": "15-1-2025",
+            "finishDate": "15-1-2025",
             "meeetings": [],
             "students": []
         }
@@ -45,6 +45,7 @@
             "lastName": "John",
             "class": "FS01",
             "classId": 1,
+            "avatar": "",
             "profile": {
                 "address": "Jl. Jakarta",
                 "city": "Jakarta",
@@ -52,6 +53,22 @@
             }
         }
     ],
-    "tasks": [],
-    "users": []
+    "tasks": [
+        {
+            "id": "1",
+            "name": "Mengenal arti dari API",
+            "classId": 1,
+            "class": "FS01",
+            "files": []
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "email": "vincent@mail.com",
+            "password": "123",
+            "username": "vincent123",
+            "image": ""
+        }
+    ]
 }
