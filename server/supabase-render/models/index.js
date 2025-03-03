@@ -4,6 +4,13 @@ import fs from 'fs';
 import path from 'path';
 import Sequelize from 'sequelize';
 import process from 'process';
+
+// Set __dirname and __filename in ESM ES Module
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// 
+
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 import config  from `${__dirname} + '/../config/config.json')[${env}]`;
