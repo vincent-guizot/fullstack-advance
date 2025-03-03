@@ -1,4 +1,5 @@
 import { Router } from "express";
+import userRoutes from "./user.js";
 const route = Router();
 
 route.get("/", (req, res) => {
@@ -6,5 +7,7 @@ route.get("/", (req, res) => {
     message: "Home",
   });
 });
+
+route.use("/users", userRoutes);
 
 export default route;
